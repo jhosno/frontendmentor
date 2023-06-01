@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      /*color  #d5e1ef*/
+      :root {
+        --main-bg-color: brown;
+        --White: hsl(0, 0%, 100%);
+        --Light-gray: hsl(212, 45%, 89%);
+        --Grayish-blue: hsl(220, 15%, 55%);
+        --Dark-blue: hsl(218, 44%, 22%);
+      }
+      
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+      body {
+        margin: 0;
+        background: var(--Light-gray);
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        box-sizing: border-box;
+        display: flex;
+        display: flex;
+        justify-content: center;
+        font-family: 'Outfit', sans-serif;
+        text-align: center;
+        align-items: center;
+      }
+      h3 {
+        font-weight: 700;
+        font-size: 1.4em;
+      }
+      p {
+          color:var(--Grayish-blue);
+        line-height: 1.5rem;
+        font-size: 0.94rem;
+      }
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .thumbnail-table {
+        background: #fff;
+        max-width: 18rem;
+        /* min-height: 35rem; */
+        padding: 1.2rem;
+        border-radius: 18px;
+        box-shadow: -9px 1px 78px -36px var(--Light-gray);
+        -webkit-box-shadow: -9px 1px 78px -36px var(--Light-gray);
+        -moz-box-shadow: -9px 1px 78px -36px var(--Light-gray);
+      }
+      .thumbnail-table figure {
+        margin: 0;
+        width: 100%;
+      }
+      .thumbnail-table figure img {
+        border-radius: 18px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="thumbnail-table">
+      <figure>
+        <img src="./images/image-qr-code.png" alt="" />
+      </figure>
+      <h3>Improve your front-end skills by building projects</h3>
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://jhosno.github.io">Jhos</a>.
+      </div>
+    </div>
+  </body>
+</html>
